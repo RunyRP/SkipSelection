@@ -1,0 +1,98 @@
+.header {
+    background-color: #121212;
+    font-family: Inter, system-ui, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 16px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: nowrap;
+    font-weight: 400;
+    transition: opacity 0.3s ease; 
+}
+
+.header button:hover {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    color: white;
+    opacity: 50%;
+}
+
+svg {
+    color: #0037C1;
+    padding: 0 5px;
+}
+
+button:disabled svg {
+    color: white;
+    opacity: 50%;
+}
+
+.separator, .separator-disabled {
+    width: 4rem;
+    height: 1px;
+    margin: 0 10px;
+}
+
+.separator {
+    background-color: #0037C1;
+}
+
+.separator-disabled {
+    background-color: #292c31;
+}
+
+@media only screen and (max-width: 1080px){
+    .header {
+        padding: 5px 8px 0;
+    }
+
+    .header button {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+
+    .separator, .separator-disabled {
+        width: 3rem;
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (min-width: 834px) and (max-width: 1366px){
+    .header {
+        padding: 5px 16px 0;
+    }
+
+    .header button {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .separator, .separator-disabled {
+        width: 4rem;
+        margin-left: 20px;
+    }
+
+}
+

@@ -18,9 +18,9 @@ Tablet (iPad Pro)
 This approach allows the application to cater to a wide range of users, ensuring it functions seamlessly on both small and medium-sized screens.
 
 <h2>SandBox</h2>
-You can check my project directly here: https://stackblitz.com/~/github.com/RunyRP/SkipSelection
-In order to make it run you should:
-- cd skip-select-page/
-- npm install vote --save-dev
-- npm run dev
+You can check my project directly here: https://stackblitz.com/~/github.com/RunyRP/SkipSelection <br/>
+In order to make it run you should:<br/>
+- cd skip-select-page/<br/>
+- npm install vote --save-dev<br/>
+- npm run dev<br/>
 

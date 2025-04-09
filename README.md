@@ -21,6 +21,6 @@ This approach allows the application to cater to a wide range of users, ensuring
 You can check my project directly here: https://stackblitz.com/~/github.com/RunyRP/SkipSelection <br/>
 In order to make it run you should:<br/>
 - cd skip-select-page/<br/>
-- npm install vote --save-dev<br/>
+- npm install vite --save-dev<br/>
 - npm run dev<br/>
 
